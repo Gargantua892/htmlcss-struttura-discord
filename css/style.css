@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+/* Regole di Debug*/
+
+/* nav debug */
+nav{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+nav img{
+    width: 90px;
+    height: 50px;
+    background-color: red;
+}
+nav ul {
+    padding-left: 0px;
+}
+
+nav li{
+    float: left;
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+
+nav .btn-sm{
+    width: 90px;
+    height: 20px;
+    background-color: cornflowerblue;
+}
+
+/* fine nav debug */
