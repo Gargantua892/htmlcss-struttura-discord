@@ -9,14 +9,22 @@
 
 
 
-/* Regole di Debug*/
+/* --------------------- Regole di Debug --------------------- */
+
+.btn{
+    padding: 10px 40px;
+}
+
 
 /* nav debug */
-nav{
+
+header{
     background-color: aqua;
+}
+nav{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
 }
@@ -44,3 +52,49 @@ nav .btn-sm{
 }
 
 /* fine nav debug */
+
+/* hero debug */
+
+#hero{
+    background-color: cadetblue;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: rgba(255, 0, 0, 0.234);
+}
+
+#hero .container{
+    padding: 0px 28%;
+}
+
+#hero ul{
+    list-style-type: none;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#hero li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.btn.primary-light-btn{
+    background-color: white;
+}
+
+.btn.dark-btn{
+    background-color: black;
+    color: #fff;
+}
+/* fine hero debug */
