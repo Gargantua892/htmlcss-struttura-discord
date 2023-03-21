@@ -23,6 +23,10 @@
     color: #fff;
 }
 
+ul{
+    list-style-type: none;
+}
+
 
 /* nav debug */
 
@@ -87,7 +91,6 @@ nav .btn-sm{
 }
 
 #hero ul{
-    list-style-type: none;
     margin-top: 36px;
     margin-bottom: 36px;
 }
@@ -113,11 +116,15 @@ nav .btn-sm{
    display: flex;
    align-items: start;
    justify-content: center;
-   padding: 10% 0px;
+   padding: 5% 0px;
 }
 
 .row.row-reverse{
     flex-direction: row-reverse;
+}
+
+.row.space-between{
+    justify-content: space-between;
 }
 
 .col{
@@ -156,3 +163,22 @@ nav .btn-sm{
 }
 
 /* Fine section row debug */
+footer{
+    background-color: darkslategrey;
+    color: #fff;
+}
+footer #social-icon li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer #social-icon{
+    padding-left: 0px;
+}
+
+.switcher::before{
+    content: "🇮🇹";
+    position: relative;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+}
