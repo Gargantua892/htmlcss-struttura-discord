@@ -18,10 +18,20 @@
     margin: 0 auto;
 }
 
+.btn-primary:before , .primary-light-btn:before {
+    content: "\f063";
+    position: relative;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    margin-right: 4px;
+}
+
 .btn.btn-primary{
     background-color: mediumslateblue;
     color: #fff;
 }
+
+
 
 ul{
     list-style-type: none;
